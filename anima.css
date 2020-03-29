@@ -1,0 +1,49 @@
+.div-grand {
+    width:300px;
+    height:300px;
+    background-color: red;
+    overflow: hidden;
+}
+
+.div-father {
+    display:flex;
+}
+
+.child {
+    width:300px;
+    height:300px;
+    background: blue;
+}
+
+.div-son-1 {
+    animation: myAnimation-1 3s linear infinite;
+    position: absolute;
+}
+@keyframes myAnimation-1 {
+    from {left:0;}
+    to {left:800px}
+}
+
+.div-son-2 {
+    background: green;
+    animation: myAnimation-2 3s linear infinite;
+    position: absolute;
+}
+
+@keyframes myAnimation-2 {
+    from {left:100px;}
+    to {left:600px}
+}
+
+.div-son-3 {
+    background:yellow;
+    animation: myAnimation-3 3s linear infinite;
+    position: absolute;
+}
+
+@keyframes myAnimation-3 {
+    from {left:0;}
+    to {left:300px}
+}
+
+
